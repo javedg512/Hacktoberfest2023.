@@ -1,0 +1,20 @@
+import java.util.*;
+import javax.swing.JOptionPane;
+public class calculator{
+	public static void main(String args[]){
+System.out.println("Enter First number :");
+		int num1 = Integer.parseInt(System.console().readLine());
+		System.out.println("Enter Second number :");
+		int num2 = Integer.parseInt(System.console().readLine());
+		int sum = num1 + num2;
+		int sub = num1 - num2 ;
+		int mul = num1 * num2 ;
+		int div = num1 / num2 ;
+		int mod = num1 % num2 ;
+		System.out.println("Sum of your Inputted Values is "+sum);
+		System.out.println("Subs of your Inputted Values is "+sub);
+		System.out.println("Multi of your Inputted Values is "+mul);
+		System.out.println("Div of your Inputted Values is "+div);
+		System.out.println("Mod of your Inputted Values is "+mod);  
+}
+}
